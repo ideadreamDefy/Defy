@@ -24,6 +24,7 @@
 		CC5C97931B9F34E0005F8237 /* PassByValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC5C97911B9F34E0005F8237 /* PassByValue.cpp */; };
 		CC79A5EC1BA7ED2F006D0DAA /* StringOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC79A5EA1BA7ED2F006D0DAA /* StringOperation.cpp */; };
 		CC91984A1BA1C0AF00C8F732 /* FloatingAsBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC9198481BA1C0AF00C8F732 /* FloatingAsBinary.cpp */; };
+		CCC192251BB9394D00AE17E6 /* PointerLeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCC192231BB9394D00AE17E6 /* PointerLeader.cpp */; };
 		CCDB4AA61B9DE3F600F55EA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDB4AA51B9DE3F600F55EA2 /* main.cpp */; };
 		CCDB4AAF1B9DE43900F55EA2 /* NumConv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDB4AAD1B9DE43900F55EA2 /* NumConv.cpp */; };
 		CCDB4AB21B9DF12100F55EA2 /* HelloStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDB4AB01B9DF12100F55EA2 /* HelloStrings.cpp */; };
@@ -77,6 +78,8 @@
 		CC79A5EB1BA7ED2F006D0DAA /* StringOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringOperation.h; sourceTree = "<group>"; };
 		CC9198481BA1C0AF00C8F732 /* FloatingAsBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FloatingAsBinary.cpp; sourceTree = "<group>"; };
 		CC9198491BA1C0AF00C8F732 /* FloatingAsBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingAsBinary.h; sourceTree = "<group>"; };
+		CCC192231BB9394D00AE17E6 /* PointerLeader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PointerLeader.cpp; path = learning/PointerLeader.cpp; sourceTree = SOURCE_ROOT; };
+		CCC192241BB9394D00AE17E6 /* PointerLeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointerLeader.h; path = learning/PointerLeader.h; sourceTree = SOURCE_ROOT; };
 		CCDB4AA21B9DE3F600F55EA2 /* Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDB4AA51B9DE3F600F55EA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CCDB4AAD1B9DE43900F55EA2 /* NumConv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumConv.cpp; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				CC49826E1BA0610000E90C4A /* voidPointer.h */,
 				CC4982701BA0655100E90C4A /* Mathops.cpp */,
 				CC4982711BA0655100E90C4A /* Mathops.h */,
+				CCC192231BB9394D00AE17E6 /* PointerLeader.cpp */,
+				CCC192241BB9394D00AE17E6 /* PointerLeader.h */,
 			);
 			name = Pointer;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				CC4982721BA0655100E90C4A /* Mathops.cpp in Sources */,
 				CC5C978F1B9F2E09005F8237 /* Specify.cpp in Sources */,
 				CCDB4AB21B9DF12100F55EA2 /* HelloStrings.cpp in Sources */,
+				CCC192251BB9394D00AE17E6 /* PointerLeader.cpp in Sources */,
 				CC5C978C1B9F2AD7005F8237 /* Charlist.cpp in Sources */,
 				CC49827F1BA078DD00E90C4A /* const_cast.cpp in Sources */,
 				CC79A5EC1BA7ED2F006D0DAA /* StringOperation.cpp in Sources */,

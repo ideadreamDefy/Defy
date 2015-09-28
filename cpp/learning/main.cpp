@@ -25,6 +25,7 @@
 #include "Enum.h"
 #include "FloatingAsBinary.h"
 #include "StringOperation.h"
+#include "PointerLeader.h"
 
 #include <string>
 #include <vector>
@@ -189,6 +190,13 @@ void searchClassEntry(){
                 StringOperation *so = new StringOperation();
                 so->operatorString("hellowwwww");
             }
+            break;
+        case 19:
+            {
+                PointerLeader *pL = new PointerLeader();
+                pL->show();
+            }
+            break;
         default:
             {
                 cout<<"输入错误请重新输入!";
@@ -289,7 +297,12 @@ int main(){
     VectorRect rect18;
     rect18.classId = 18;
     rect18.className = "StringOperation";
-    vec.push_back(rect17);
+    vec.push_back(rect18);
+    
+    VectorRect rect19;
+    rect19.classId = 19;
+    rect19.className = "PointerLeader";
+    vec.push_back(rect19);
     
     searchClassEntry();
 }
