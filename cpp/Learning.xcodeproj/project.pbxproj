@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC40E6C81BBAC2C8009E54BD /* FuncPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC40E6C61BBAC2C8009E54BD /* FuncPointer.cpp */; };
+		CC40E6CB1BBAC672009E54BD /* FunctionTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC40E6C91BBAC672009E54BD /* FunctionTable.cpp */; };
 		CC49826C1BA04AD200E90C4A /* PassAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC49826A1BA04AD200E90C4A /* PassAddress.cpp */; };
 		CC49826F1BA0610000E90C4A /* voidPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC49826D1BA0610000E90C4A /* voidPointer.cpp */; };
 		CC4982721BA0655100E90C4A /* Mathops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC4982701BA0655100E90C4A /* Mathops.cpp */; };
@@ -44,6 +46,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CC40E6C61BBAC2C8009E54BD /* FuncPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FuncPointer.cpp; path = learning/FuncPointer.cpp; sourceTree = SOURCE_ROOT; };
+		CC40E6C71BBAC2C8009E54BD /* FuncPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuncPointer.h; path = learning/FuncPointer.h; sourceTree = SOURCE_ROOT; };
+		CC40E6C91BBAC672009E54BD /* FunctionTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionTable.cpp; path = ../learning/FunctionTable.cpp; sourceTree = "<group>"; };
+		CC40E6CA1BBAC672009E54BD /* FunctionTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunctionTable.h; path = ../learning/FunctionTable.h; sourceTree = "<group>"; };
 		CC49826A1BA04AD200E90C4A /* PassAddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassAddress.cpp; sourceTree = "<group>"; };
 		CC49826B1BA04AD200E90C4A /* PassAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassAddress.h; sourceTree = "<group>"; };
 		CC49826D1BA0610000E90C4A /* voidPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = voidPointer.cpp; sourceTree = "<group>"; };
@@ -142,6 +148,10 @@
 				CC4982711BA0655100E90C4A /* Mathops.h */,
 				CCC192231BB9394D00AE17E6 /* PointerLeader.cpp */,
 				CCC192241BB9394D00AE17E6 /* PointerLeader.h */,
+				CC40E6C61BBAC2C8009E54BD /* FuncPointer.cpp */,
+				CC40E6C71BBAC2C8009E54BD /* FuncPointer.h */,
+				CC40E6C91BBAC672009E54BD /* FunctionTable.cpp */,
+				CC40E6CA1BBAC672009E54BD /* FunctionTable.h */,
 			);
 			name = Pointer;
 			sourceTree = "<group>";
@@ -263,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC40E6CB1BBAC672009E54BD /* FunctionTable.cpp in Sources */,
 				CC4982791BA072F100E90C4A /* CommaOperator.cpp in Sources */,
 				CC5C97861B9E9369005F8237 /* Intvector.cpp in Sources */,
 				CC49827C1BA075C600E90C4A /* static_cast.cpp in Sources */,
@@ -270,6 +281,7 @@
 				CC4982761BA06C1200E90C4A /* printBinary.cpp in Sources */,
 				CCDB4AB51B9DF35300F55EA2 /* FillString.cpp in Sources */,
 				CC91984A1BA1C0AF00C8F732 /* FloatingAsBinary.cpp in Sources */,
+				CC40E6C81BBAC2C8009E54BD /* FuncPointer.cpp in Sources */,
 				CC49826C1BA04AD200E90C4A /* PassAddress.cpp in Sources */,
 				CC5C97931B9F34E0005F8237 /* PassByValue.cpp in Sources */,
 				CC5C97831B9E90BF005F8237 /* getWords.cpp in Sources */,

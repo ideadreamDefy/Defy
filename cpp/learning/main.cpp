@@ -26,6 +26,8 @@
 #include "FloatingAsBinary.h"
 #include "StringOperation.h"
 #include "PointerLeader.h"
+#include "FuncPointer.h"
+#include "FunctionTable.h"
 
 #include <string>
 #include <vector>
@@ -197,6 +199,17 @@ void searchClassEntry(){
                 pL->show();
             }
             break;
+        case 20:
+            {
+                FuncPointer *fP = new FuncPointer();
+                fP->func();
+            }
+            break;
+        case 21:
+            {
+                FunctionTable *fT = new FunctionTable();
+                fT->show();
+            }
         default:
             {
                 cout<<"输入错误请重新输入!";
@@ -303,6 +316,16 @@ int main(){
     rect19.classId = 19;
     rect19.className = "PointerLeader";
     vec.push_back(rect19);
+    
+    VectorRect rect20;
+    rect20.classId = 20;
+    rect20.className = "FuncPointer";
+    vec.push_back(rect20);
+    
+    VectorRect rect21;
+    rect21.classId = 21;
+    rect21.className = "FunctionTable";
+    vec.push_back(rect21);
     
     searchClassEntry();
 }

@@ -24,5 +24,5 @@ void PointerLeader::show(){
     
     cout<<"i = "<<i<<endl;
     cout<<"ref = "<<ref<<endl;
-    cout<<"i ="<<j<<endl;
+    cout<<"i ="<<i<<endl;
 }
