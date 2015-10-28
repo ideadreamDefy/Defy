@@ -1,0 +1,309 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class pokerPlayerOwned
+{
+    public pokerPlayerOwned()
+    {
+        for (int i = 0; i < pokerValue.Length; i++)
+        {
+            pokerValue[i] = -1;
+        }
+    }
+    //玩家手上的牌
+    public GameObject[] poker = new GameObject[global.roundMax];
+    //手上牌的编号                                            
+    public int[] pokerValue = new int[global.roundMax];
+
+}
+
+public class dealPoker : MonoBehaviour
+{
+    public GameObject pokerPre;
+    public GameObject[] player;
+    public Sprite[] poker;//红桃 草花 黑桃 方片 3-k 1 2
+    public int playerID = 0;//用来判断底牌是否需要展示
+	public GameObject timeObejct;
+	public GameObject GrabZhuangObject;
+
+    private GameObject[] pokers = new GameObject[global.pokerCount];//存放实例化后的pokerPre
+    private int[] pokerValue = new int[global.pokerCount];//
+    private int roundCount = 0;//0表示回合未开始 从1开始
+    private float dealSpace = 0.0f;//发牌区 牌位置间隔
+    private float dealPlayerPokerSpace = 10.0f;
+    private float shuffleInterval = 0.01f;//扑克理牌时间间隔
+    private float dealInterval = 0.5f;//扑克发牌时间间隔
+    private bool isIdle = true;
+    private pokerPlayerOwned[] playerOwned = new pokerPlayerOwned[global.playerCount];
+	private int waitTime = global.waitTime;
+
+    // Use this for initializatiol
+    void Start()
+    {
+		timeObejct.SetActive(false);
+		GrabZhuangObject.SetActive(false);
+    }
+
+    void Update()
+    {
+
+    }
+
+    public void Shuffle()//洗牌
+	{
+        init();
+        RandomPoker();
+        StartCoroutine(labelPoker());
+    }
+
+    public void DealRound()//发一轮牌
+    {
+        if (isIdle)
+        {
+            isIdle = false;
+			StartCoroutine(dealPoke());
+        }
+    }
+
+	public void btn11ReturnClicked()
+	{
+		Application.LoadLevel("LoginScene");
+	}
+
+	public void qiangBtnClicked(){
+		print ("qiangBtnClicked----");
+		
+	}
+	
+	public void noQiangBtnClicked(){
+		print ("qiangBtnClicked----");
+			
+	}
+
+    public void Showhand()
+    {
+        if (roundCount > global.roundMax)
+        {
+            for (int i = 1; i < playerOwned.Length; i++)
+            {
+                //展示所有玩家的底牌
+				for (int y = 0;y<global.roundMax;y++){
+					playerOwned[i].poker[y].GetComponent<Image>().sprite = poker[playerOwned[i].pokerValue[y]];
+				}
+            }
+        }
+    }
+
+    void DealOne(GameObject player, GameObject poker)//发一张牌
+    {
+        //得到玩家的座位pos
+		poker.transform.SetParent(player.transform);
+        Vector3 pos;
+        if (player.name != null && player.name.Equals("playerTopPos"))
+        {
+            pos = GameObject.Find("/backCanvas/playerTopDrawPos").transform.position;
+            pos.x += player.transform.childCount * dealPlayerPokerSpace;
+        }
+        else if (player.name != null && player.name.Equals("playerLeftPos"))
+        {
+            pos = GameObject.Find("/backCanvas/playerLeftDrawPos").transform.position;
+            pos.x += player.transform.childCount * dealPlayerPokerSpace;
+        }
+        else if (player.name != null && player.name.Equals("playerDownPos"))
+        {
+            pos = GameObject.Find("/backCanvas/playerDownDrawPos").transform.position;
+            pos.x += player.transform.childCount * 40;
+        }
+        else
+        {
+            pos = GameObject.Find("/backCanvas/playerRightDrawPos").transform.position;
+            pos.x += player.transform.childCount * dealPlayerPokerSpace;
+        }
+
+        pos.z = -0.1f * roundCount;
+        LeanTween.move(poker, pos, dealInterval).setEase(LeanTweenType.easeInQuad);
+
+        Vector3 posTrans = player.transform.position;
+        
+        if (player.name != null && player.name.Equals("playerTopPos"))
+        {
+            posTrans.x -= dealSpace / 2;
+        }
+        else if (player.name != null && player.name.Equals("playerLeftPos"))
+        {
+            posTrans.x -= dealSpace / 2;
+        }
+        else if (player.name != null && player.name.Equals("playerDownPos"))
+        {
+            posTrans.x  -= 40 / 2;
+        }
+        else if (player.name != null && player.name.Equals("playerRightPos"))
+        {
+            posTrans.x -= dealSpace / 2;
+        }
+
+        player.transform.position = posTrans;
+    }
+
+    void init()
+    {
+        //回合数
+        roundCount = 0;
+
+        for (int i = 0; i < global.pokerCount; i++)
+        {
+            //初始化扑克的值
+            pokerValue[i] = i;
+        }
+
+        Vector3 pos = transform.position;
+        pos.x = 0;
+
+        transform.position = pos;
+
+        //清理所有非空gameObject
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            GameObject go = transform.GetChild(i).gameObject;
+            globalTool.DestroyImmediate(go);
+        }
+        //清理玩家下的所有子gameObject
+        for (int j = 0; j < player.Length; j++)
+        {
+            for (int i = 0; i < player[j].transform.childCount; i++)
+            {
+                GameObject go = player[j].transform.GetChild(i).gameObject;
+                globalTool.DestroyImmediate(go);
+            }
+        }
+
+        string [] colorResPath = global.colorResPath;
+
+        
+        //初始化玩家手中的牌 
+        for (int i = 0; i < playerOwned.Length; i++)
+        {
+            playerOwned[i] = new pokerPlayerOwned();
+        }
+        //初始化玩家所有牌的花色
+        for(int j = 0;j<colorResPath.Length;j++){
+            for(int m = j*13;m<j*13+13;m++){
+               poker[m]  = globalTool.GetSpriteByFilePath(colorResPath[j] + (m-j*13+1));
+            }
+        }
+    }
+
+    void RandomPoker()
+    {
+        //随机发牌
+        int currentIndex;
+        int tempValue;
+        int[] arrayRandom = new int[global.pokerCount];
+        //int a = getPokerValue();
+        for (int i = 0; i < global.pokerCount; i++)
+        {
+            currentIndex = Random.Range(0, global.pokerCount - i);
+            tempValue = pokerValue[currentIndex];
+            pokerValue[currentIndex] = pokerValue[global.pokerCount - 1 - i];
+            pokerValue[global.pokerCount - 1 - i] = tempValue;
+            arrayRandom[i] = currentIndex;
+        }
+    }
+
+    public int getPokerValue(int tag)
+    {
+//        char[] separator = { '_' };
+//        string[] arr = poker[tag].name.Split(separator);
+        return 1;
+
+    }
+
+    IEnumerator labelPoker()
+    {
+        //牌
+        for (int i = 0; i < global.pokerCount; i++)
+		{
+            //每个循环延迟0.5s
+            yield return new WaitForSeconds(shuffleInterval);
+            //隐藏剩余的牌
+            Vector3 pos = GameObject.Find("backCanvas/pokerDrawPos").transform.position;
+            pos.x += i * dealSpace;
+            GameObject obj = Instantiate(pokerPre, pos, transform.rotation) as GameObject;
+			obj.transform.SetParent(transform);
+            pokers[i] = obj;
+            if (i < 32)
+            {
+                pokers[i].SetActive(false);
+            }
+
+            Vector3 posTrans = transform.position;
+            posTrans.x -= dealSpace / 2;
+            transform.position = posTrans;
+        }
+        roundCount = 1;
+        DealRound();
+    }
+
+    IEnumerator dealPoke()
+    {
+        //当第一回合时
+        if (roundCount == 1)
+        {
+            //遍历玩家数
+             while (roundCount < 6) {
+                for (int i = 0; i < player.Length; i++)
+                {
+                    int pokerId = global.pokerCount - 1 - (roundCount - 1) * player.Length - i;
+                    if (playerID == i)
+                    {
+                        pokers[pokerId].GetComponent<Image>().sprite = poker[pokerValue[pokerId]];
+                    }
+                    DealOne(player[i], pokers[pokerId]);
+                    playerOwned[i].poker[roundCount - 1] = pokers[pokerId];
+                    playerOwned[i].pokerValue[roundCount - 1] = pokerValue[pokerId];
+                    //延时0.5毫秒
+                    yield return new WaitForSeconds(dealInterval);
+                }
+                roundCount++;
+            }
+        }
+        else if (roundCount > 1 && roundCount <= global.roundMax)
+        {
+            for (int i = 0; i < player.Length; i++)
+            {
+                int pokerId = global.pokerCount - 1 - (roundCount - 1) * player.Length - i;
+                pokers[pokerId].GetComponent<Image>().sprite = poker[pokerValue[pokerId]];
+                DealOne(player[i], pokers[pokerId]);
+
+                playerOwned[i].poker[roundCount - 1] = pokers[pokerId];
+                playerOwned[i].pokerValue[roundCount - 1] = pokerValue[pokerId];
+
+                yield return new WaitForSeconds(dealInterval);
+            }
+            roundCount++;
+        }
+        yield return new WaitForSeconds(dealInterval);
+        isIdle = true;
+		StartCoroutine(timerIEnumerator());
+    }
+    //抢庄定时器
+	IEnumerator timerIEnumerator() {
+		while (true) {
+			yield return new WaitForSeconds(1.0f);
+			if (waitTime != -1) {
+				timeObejct.SetActive(true);
+				GrabZhuangObject.SetActive(true);
+				var timeText = timeObejct.transform.GetComponentInChildren<Text>();
+				timeText.text = waitTime.ToString();
+				waitTime = waitTime -1;
+			}else{
+				timeObejct.SetActive(false);
+				GrabZhuangObject.SetActive(false);
+				Showhand();
+				yield break;
+			}
+		}
+	}
+}
+

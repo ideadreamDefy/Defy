@@ -1,0 +1,4307 @@
+Welcome to the Emacs shell
+
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'Python ')
+('math.group()========+++++++=', 'Hello  Python world')
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'Python ')
+('math.group()========+++++++=', 'Hello  Python world')
+Traceback (most recent call last):
+  File "hello.py", line 46, in <module>
+    print("math.group()=======++++++=",match.group(2))
+IndexError: no such group
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'Python ')
+('match.group()========+++++++=', 'Hello  Python world')
+Traceback (most recent call last):
+  File "hello.py", line 46, in <module>
+    print("match.group()=======++++++=",match.group(2))
+IndexError: no such group
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'Python ')
+('match.group()========+++++++=', 'Hello  Python world')
+('match.group()=======++++++=', 'Hello  Python world')
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'Python ')
+('match.group()========+++++++=', ('Python ',))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'Pythonasdasdf  ')
+('match.group()========+++++++=', ('Pythonasdasdf  ',))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'Pythonasdasdf  ')
+('match.group()========+++++++=', ('Pythonasdasdf  ',))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+~/Documents/DefygitWorkSpace/python $ python hello.py 
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+Traceback (most recent call last):
+  File "hello.py", line 44, in <module>
+    print("match.group(1)=========",match.group(1))
+AttributeError: 'NoneType' object has no attribute 'group'
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+Traceback (most recent call last):
+  File "hello.py", line 64, in <module>
+    print('match1.groups()',match1.groups())
+AttributeError: 'NoneType' object has no attribute 'groups'
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+None
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+['cc', 'bb', 'aa']
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+[2, 5, 8]
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [3, 6, 9])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+Traceback (most recent call last):
+  File "hello.py", line 84, in <module>
+    diag = [M[i][i] for i in [0,1,2]]
+IndexError: string index out of range
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ss', 'pp', 'aa', 'mm'])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+<generator object <genexpr> at 0x101bb8050>
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+Traceback (most recent call last):
+  File "hello.py", line 91, in <module>
+    print(next(G))
+  File "hello.py", line 90, in <genexpr>
+    G = (sum(row) for row in M)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+~/Documents/DefygitWorkSpace/python $ 
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+Traceback (most recent call last):
+  File "hello.py", line 94, in <module>
+    print(next(G))
+StopIteration
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+Traceback (most recent call last):
+  File "hello.py", line 95, in <module>
+    List = list(map(sum,M))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+Traceback (most recent call last):
+  File "hello.py", line 100, in <module>
+    List2 = {i:sum(M[i]) for i in range(3)}
+  File "hello.py", line 100, in <dictcomp>
+    List2 = {i:sum(M[i]) for i in range(3)}
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+~/Documents/DefygitWorkSpace/python $ 
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+10
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+<generator object <genexpr> at 0x10765e0a0>
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+<generator object <genexpr> at 0x1089770a0>
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+<generator object <genexpr> at 0x10d9a00a0>
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+Traceback (most recent call last):
+  File "hello.py", line 129, in <module>
+    print(rec['mgr'][2])
+KeyError: 'mgr'
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+40.5
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 131
+    print(rec['job']).append('janitors'))
+                                        ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 131
+    rec['job']).append('janitors')
+              ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 140
+    for key in Ks
+                ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 140
+    for key in Ks
+                ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+Traceback (most recent call last):
+  File "hello.py", line 156, in <module>
+    D2.sort()
+AttributeError: 'dict' object has no attribute 'sort'
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e']
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e']
+['a', 'c', 'b', 'e']
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e']
+['a', 'c', 'b', 'e']
+False
+~/Documents/DefygitWorkSpace/python $ 
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 164
+    else
+       ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+False
+miss f
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e']
+['a', 'c', 'b', 'e']
+False
+miss f
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+False
+miss f
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+False
+miss f
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+~/Documents/DefygitWorkSpace/python $ 
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+11
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21)
+1
+10
+Traceback (most recent call last):
+  File "hello.py", line 177, in <module>
+    print(T.index(22))
+ValueError: tuple.index(x): x not in tuple
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+11
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21)
+1
+10
+0
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+Traceback (most recent call last):
+  File "hello.py", line 177, in <module>
+    print(T.count(1) if count in T else 0)
+NameError: name 'count' is not defined
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+~/Documents/DefygitWorkSpace/python $ 
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+~/Documents/DefygitWorkSpace/python $ 
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+<type 'list'>
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+<type 'list'>
+<type 'str'>
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+<type 'list'>
+<type 'str'>
+<type 'tuple'>
+~/Documents/DefygitWorkSpace/python $ python Worker.py
+Traceback (most recent call last):
+  File "Worker.py", line 13, in <module>
+    workTest = Worker('Sue Jones',60000)
+TypeError: this constructor takes no arguments
+~/Documents/DefygitWorkSpace/python $ python Worker.py
+Traceback (most recent call last):
+  File "Worker.py", line 13, in <module>
+    workTest = Worker('Sue Jones',60000)
+TypeError: this constructor takes no arguments
+~/Documents/DefygitWorkSpace/python $ python Worker.py
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+<type 'list'>
+<type 'str'>
+<type 'tuple'>
+Traceback (most recent call last):
+  File "hello.py", line 193, in <module>
+    workTest = Worker('Sue Jones',60000)
+TypeError: 'module' object is not callable
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+<type 'list'>
+<type 'str'>
+<type 'tuple'>
+Traceback (most recent call last):
+  File "hello.py", line 193, in <module>
+    workTest = Worker('Sue Jones',60000)
+NameError: name 'Worker' is not defined
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+<type 'list'>
+<type 'str'>
+<type 'tuple'>
+Traceback (most recent call last):
+  File "hello.py", line 192, in <module>
+    import Worker.py
+ImportError: No module named py
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 192
+    import ~/Documents/DefygitWorkSpace/pythoWorker.py
+           ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 192
+    import ~/Documents/DefygitWorkSpace/python/Worker.py
+           ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ 
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 192
+    import /Documents/DefygitWorkSpace/python/Worker.py
+           ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ python hello.py
+  File "hello.py", line 192
+    import Documents/DefygitWorkSpace/python/Worker.py
+                    ^
+SyntaxError: invalid syntax
+~/Documents/DefygitWorkSpace/python $ ls
+ *Minibuf-26*  #*eshell*#  *eshell*  Worker.py  Worker.pyc  hello.py
+~/Documents/DefygitWorkSpace/python $ ls
+ *Minibuf-26*  #*eshell*#  *eshell*  Worker.py  Worker.pyc  hello.py
+~/Documents/DefygitWorkSpace/python $ python hello.py
+Traceback (most recent call last):
+  File "hello.py", line 2, in <module>
+    import  Worker.py
+ImportError: No module named py
+~/Documents/DefygitWorkSpace/python $ python hello.py
+('string abcd-------->s[:]', 'abca')
+('string abcd-------->s[1:]', 'abca')
+('string abcd-------->s[:len(s)]', 'abca')
+('string abcd-------->s[1:(len(s)-1)]', 'bc')
+("s.find('pa')=======", -1)
+("s.find('a')=======", 1)
+("s.replace('ab','xyz'========", 'xyzca')
+('s === after replace ======', 'abca')
+('array ======', ['aaa', 'bbb', 'ccccc', 'dd'])
+('line.isalpha()=======', False)
+('lineWord.isalpha() ======', False)
+('lineWord.rstrip()=======', 'aaaaaaa')
+spam,eggs,and SPAM!
+spam,eggs,and SPAM!
+A
+
+
+B
+	
+C
+for end
+('match.group(1)=========', 'dddasd  Pythonasdasdf  ')
+('match.group()========+++++++=', ('dddasd  Pythonasdasdf  ',))
+('match1.groups()', ('usr', 'home', 'lumberjack'))
+3
+123
+[123, 'spam']
+[123, 'spam', 1.23, 4, 5, 6]
+[123, 'spam', 1.23, 'NI']
+['aa', 'bb', 'cc']
+['cc', 'bb', 'aa']
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[4, 5, 6]
+6
+([1, 4, 7], [2, 5, 8], [6])
+('diag ======', [1, 5, 9])
+('doubles ======', ['ssssssssssssssssssss', 'pppppppppppppppppppp', 'aaaaaaaaaaaaaaaaaaaa', 'mmmmmmmmmmmmmmmmmmmm'])
+6
+15
+24
+('List =====', [6, 15, 24])
+{0: 6, 1: 15, 2: 24}
+[115, 112, 97, 97, 109]
+set([112, 97, 115, 109, 107])
+{'a': 97, 'p': 112, 's': 115, 'm': 109}
+11
+('D1 ===', {'age': 40, 'job': 'dev', 'name': 'Bob'})
+Bob
+mgr
+dev
+40.5
+{'age': 40.5, 'job': ['dev', 'mgr', 'janitors'], 'name': {'last': 'Smith', 'first': 'Bob'}}
+('Ks========', ['food', 'color', 'quantity'])
+('Ks========', ['color', 'food', 'quantity'])
+color
+food
+quantity
+spam!spam!spam!spam!
+spam!spam!spam!
+spam!spam!
+spam!
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25]
+['a', 'c', 'b', 'e', 'f']
+['a', 'c', 'b', 'e', 'f']
+True
+have f
+15
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 1, 1, 1, 1)
+1
+10
+0
+5
+set(['a', 'm'])
+set(['a', 'h', 'm', 'o', 'p', 's'])
+set(['p', 's', 'o'])
+set(['h'])
+set([16, 1, 4, 9])
+<type 'dict'>
+<type 'list'>
+<type 'str'>
+<type 'tuple'>
+Traceback (most recent call last):
+  File "hello.py", line 193, in <module>
+    workTest = Worker('Sue Jones',60000)
+TypeError: 'module' object is not callable
+~/Documents/DefygitWorkSpace/python $ 

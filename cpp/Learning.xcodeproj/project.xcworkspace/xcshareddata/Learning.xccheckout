@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C63EE0A-F4CB-46C7-812C-25BD70AC1F9E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Learning</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8DBBE4BD6124B62707BFCBBEF04431B4EEA48CF5</key>
+		<string>https://github.com/ideadreamDefy/Defy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cpp/Learning.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8DBBE4BD6124B62707BFCBBEF04431B4EEA48CF5</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ideadreamDefy/Defy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8DBBE4BD6124B62707BFCBBEF04431B4EEA48CF5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DBBE4BD6124B62707BFCBBEF04431B4EEA48CF5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DefygitWorkSpace</string>
+		</dict>
+	</array>
+</dict>
+</plist>
