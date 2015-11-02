@@ -1,12 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/logic/judge.cs">
     <Files>
-      <File FileName="Assets/Scripts/configData/global.cs" Line="6" Column="34" />
-      <File FileName="Assets/Scripts/scene/GameScene.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/scene/dealPoker.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/logic/judge.cs" Line="96" Column="2" />
-      <File FileName="Assets/LeanTween/Examples/Scripts/TestingAllCS.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/logic/judge.cs" Line="115" Column="39" />
+      <File FileName="Assets/Scripts/configData/global.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Model/Poker.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Model/Player.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

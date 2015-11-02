@@ -63,13 +63,16 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUniqueId.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TutorialPresentationFinished.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\UIExampleCS.cs" />
-     <Compile Include="Assets\Resources\tool\globalTool.cs" />
+     <Compile Include="Assets\Scripts\Model\Player.cs" />
+     <Compile Include="Assets\Scripts\Model\Poker.cs" />
      <Compile Include="Assets\Scripts\configData\global.cs" />
      <Compile Include="Assets\Scripts\logic\judge.cs" />
      <Compile Include="Assets\Scripts\notifyCenter\NotificationCenter.cs" />
      <Compile Include="Assets\Scripts\notifyCenter\Observer.cs" />
      <Compile Include="Assets\Scripts\scene\GameScene.cs" />
      <Compile Include="Assets\Scripts\scene\dealPoker.cs" />
+     <Compile Include="Assets\Scripts\test.cs" />
+     <Compile Include="Assets\Scripts\tool\globalTool.cs" />
      <None Include="Assets\LeanTween\Examples\Shader\2dUnlitWithFade.shader" />
      <None Include="Assets\LeanTween\ReadMe.txt" />
  <Reference Include="UnityEngine.Networking">

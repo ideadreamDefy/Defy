@@ -43,7 +43,7 @@ public class GameScene : MonoBehaviour {
        var playerLeft = transform.Find("/backCanvas/playerLeftPanel").gameObject;
        var playerLeftPos = transform.Find("/backCanvas/playerLeftPos").gameObject;
 
-       var playeRight = transform.Find("/backCanvas/playerRightPanel").gameObject;
+       var playeRight =  transform.Find("/backCanvas/playerRightPanel").gameObject;
        var playerRightPos = transform.Find("/backCanvas/playerRightPos").gameObject;
 
        var playerTop = transform.Find("/backCanvas/playerTopPanel").gameObject;
