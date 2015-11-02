@@ -4,28 +4,9 @@ using System.Collections.Generic;
 using System;
 
 public class Judge{
-    private static string [] paiZuRank = new string[]{
-        // "huazhaniu",//花顺牛
-        "huazhaniu",//花炸牛
-        "tonghuaniu",//同花牛
-        "shunziniu",//顺子牛
-        "niuniu",//牛牛
-        "wuniu",//无牛
-        "niu1",//牛一
-        "niu2",//牛二
-        "niu3",//牛三
-        "niu4",//牛四
-        "niu5",//牛五
-        "niu6",//牛六
-        "niu7",//牛七
-        "niu8",//牛八
-        "niu9",//牛九
-    };
-    
 	public static int[] pokerValue = new int[5];
 	public static string[] pokerColor = new string[5];
-	public static bool isHaveWang = false;
-    
+
     //是拍组是否同一花色
 	public static bool isSameColor(){
         bool isRepeat = true;
@@ -33,7 +14,6 @@ public class Judge{
         for(int i = 0;i<pokerColor.Length;i++){
 			if (pokerColor.Equals("zhengWang")||pokerColor.Equals("fuWang")){
 				isRepeat = false;
-                isHaveWang = true;
 				return isRepeat;
 			}
 
@@ -44,6 +24,16 @@ public class Judge{
         }
 		return isRepeat;
     } 
+
+	//牌组是否有大小王
+	public static bool isHaveWangPoker(){
+		for (int i = 0 ;i<5;i++){
+			if (pokerColor.Equals("zhengWang")||pokerColor.Equals("fuWang")){
+				return true;
+			}
+		}
+		return false;
+	}
 
     //牌组是否为炸弹
 	public static bool  isBoom(){
@@ -56,12 +46,7 @@ public class Judge{
 		}
 		return false;
 	}
-    
-    //牌组是否有大小王
-	public static bool isHaveWangPoker(){
-		return isHaveWang;
-    }
-
+  	
     //是否为顺子
 	public static bool isShunzi(){
 		int [] array = new int[5];
@@ -79,6 +64,7 @@ public class Judge{
         }
         return false;   
     }
+
     //是否有牛
 	public static int pokerPoints(){
         int [] array = new int[5];
@@ -115,8 +101,8 @@ public class Judge{
     public static string getPokerPoint(){
         int points = pokerPoints();
         // 当牌组中无大小王时
-        if(!isHaveWangPoker()){
-            if(isBoom()||points != -1){
+		if(!isHaveWangPoker()){
+            if(isBoom()&&points != -1){
                 return "niu_HuaZha"; // 花炸牛
             }else if(isSameColor() && points!= -1){
                 return "niu_Tonghua";//同花牛
@@ -134,7 +120,7 @@ public class Judge{
                 }
             }
         }else{
-			if(isBoom()||points != -1){
+			if(isBoom()&&points != -1){
 				return "niu_HuaZha"; // 花炸牛
 			}else{
 				if ( points== -1){
