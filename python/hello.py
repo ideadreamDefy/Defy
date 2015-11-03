@@ -1,3 +1,4 @@
+
 #coding:gbk
 import  Worker
 s = "abca"
@@ -190,5 +191,12 @@ print(type(L))
 print(type(line))
 print(type(T))
 
-workTest = Worker('Sue Jones',60000)
-print(workTest.text())
+# workTest = Worker('Sue Jones',60000)
+# print(workTest.text())
+
+import math
+print(5/2)
+print(5//-2)
+print(math.trunc(5/-2))
+
+
