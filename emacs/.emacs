@@ -55,7 +55,7 @@ scroll-margin 3
 (global-set-key [f6] 'eshell)
 
 ;设置TAB默认的宽度
-(setq default-tab-width 4)
+;; (setq default-tab-width 4)
 
 ;;选中注释
 (defun qiang-comment-dwim-line (&optional arg)
@@ -73,3 +73,16 @@ scroll-margin 3
 (load-theme 'molokai t)
 
 ;; (set-default-font "Comic Sans MS Bold 14")
+;;set transparent effect
+ (global-set-key [(f8)] 'loop-alpha)
+   (setq alpha-list '((100 100) (95 65) (85 55) (75 45) (65 35)))
+   (defun loop-alpha ()
+      (interactive)
+      (let ((h (car alpha-list)))                ;; head value will set to
+      ((lambda (a ab)
+          (set-frame-parameter (selected-frame) 'alpha (list a ab))
+          (add-to-list 'default-frame-alist (cons 'alpha (list a ab)))
+         ) (car h) (car (cdr h)))
+      (setq alpha-list (cdr (append alpha-list (list h))))
+     )
+)
