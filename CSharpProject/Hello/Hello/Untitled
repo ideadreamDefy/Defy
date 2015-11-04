@@ -1,0 +1,9 @@
+  /Users/coco/Documents/DefygitWorkSpace/CSharpProject/Hello/Hello:
+  total used in directory 24 available 9058418
+  drwxr-xr-x  7 coco  staff   238 Nov  4 14:50 .
+  drwxr-xr-x  4 coco  staff   136 Nov  4 14:45 ..
+  -rw-r--r--  1 coco  staff   975 Nov  4 14:45 AssemblyInfo.cs
+  -rw-r--r--  1 coco  staff  1805 Nov  4 14:48 Hello.csproj
+  -rw-r--r--  1 coco  staff   225 Nov  4 14:50 Main.cs
+  drwxr-xr-x  3 coco  staff   102 Nov  4 14:50 Tool
+  drwxr-xr-x  3 coco  staff   102 Nov  4 14:45 bin

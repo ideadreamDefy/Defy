@@ -28,6 +28,7 @@
 #include "PointerLeader.h"
 #include "FuncPointer.h"
 #include "FunctionTable.h"
+#include "StructCpp.h"
 
 #include <string>
 #include <vector>
@@ -210,6 +211,11 @@ void searchClassEntry(){
                 FunctionTable *fT = new FunctionTable();
                 fT->show();
             }
+        case 22:
+	    {
+	        StructCpp sc;
+		cout<<"sc.d =="<<sc.d<<endl;
+	    }
         default:
             {
                 cout<<"输入错误请重新输入!";
@@ -326,6 +332,12 @@ int main(){
     rect21.classId = 21;
     rect21.className = "FunctionTable";
     vec.push_back(rect21);
+
+    VectorRect rect22;
+    rect22.classId = 22;
+    rect22.className = "StructCpp";
+    vec.push_back(rect22);
+
     
     searchClassEntry();
 }
