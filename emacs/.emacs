@@ -32,7 +32,7 @@
 ;;开始动画
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 关闭工具栏
-;;(tool-bar-mode 0)
+(tool-bar-mode 0)
 
 ;;防止页面滚动时跳动，
 ;;可以在靠近屏幕边沿3行时就开始滚动
@@ -108,5 +108,60 @@ scroll-margin 3
 
 (set-default-font "Comic Sans MS Bold 14")
 
+(global-hl-line-mode 2)
 
 
+
+;; From emacs-wiki:
+(defun shade-color (intensity)
+  "print the #rgb color of the background, dimmed according to intensity"
+  (interactive "nIntensity of the shade : ")
+  (apply 'format "#%02x%02x%02x"
+         (mapcar (lambda (x)
+                   (if (> (lsh x -8) intensity)
+                       (- (lsh x -8) intensity)
+                     0))
+                 (color-values (cdr (assoc 'background-color (frame-parameters)))))))
+
+;; Default hl
+(global-hl-line-mode 1)
+
+(set-face-background 'hl-line "#7D26CD")
+
+(set-face-foreground 'highlight nil)
+
+
+;; (make-variable-buffer-local 'global-hl-line-mode)
+;; (set-face-background hl-line-face (shade-color 08))  
+
+;; (defface hl-line-highlight-face
+;;   '((t :inherit highlight))
+;;   "Face for highlighting the current line with `hl-line-fancy-highlight'."
+;;   :group 'hl-line)
+
+;; (defun hl-line-fancy-highlight ()
+;;   (set (make-local-variable 'hl-line-face) 'hl-line-highlight-face)
+;;   ;;    (set (make-local-variable 'line-move-visual) nil)
+;;   ;;    (set (make-local-variable 'cursor-type) nil)
+;;   (setq global-hl-line-mode nil)
+;;   (hl-line-mode))
+
+;; (add-hook 'org-agenda-mode-hook 'hl-line-fancy-highlight)
+;; (add-hook 'gnus-summary-mode-hook 'hl-line-fancy-highlight)
+;; (add-hook 'gnus-group-mode-hook 'hl-line-fancy-highlight)
+
+;; (set-hl-line-color "white")
+;; highlighting
+
+
+
+;;------------显示时间设置------------------------------
+
+(display-time-mode 1);;启用时间显示设置，在minibuffer上面的那个杠上
+(setq display-time-24hr-format t);;时间使用24小时制
+(setq display-time-day-and-date t);;时间显示包括日期和具体时间
+(setq display-time-use-mail-icon t);;时间栏旁边启用邮件设置
+(setq display-time-interval 10);;时间的变化频率，单位多少来着？
+
+(show-paren-mode t)
+;;打开括号匹配显示模式
