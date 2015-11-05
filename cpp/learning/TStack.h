@@ -1,6 +1,10 @@
 #ifdef TSTACK_H
 #define TSTACK_H
+#include <iostream>
+
+using namespace std;
 template<class T>
+
 Class Stack{
   Struct Link{
     T* t;

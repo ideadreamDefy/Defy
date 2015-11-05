@@ -1,13 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hello/Main.cs">
-    <Files>
-      <File FileName="../../../MainTool.cs" Line="13" Column="23" />
-      <File FileName="Hello/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="Hello/Tool/MainHello.cs" Line="18" Column="4" />
-      <File FileName="Hello/Main.cs" Line="3" Column="13" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

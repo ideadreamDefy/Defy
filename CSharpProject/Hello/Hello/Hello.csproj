@@ -38,9 +38,12 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Tool\MainHello.cs" />
+    <Compile Include="Model\People.cs" />
+    <Compile Include="Model\Chapter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Tool\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
