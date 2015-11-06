@@ -40,6 +40,7 @@
     <Compile Include="Tool\MainHello.cs" />
     <Compile Include="Model\People.cs" />
     <Compile Include="Model\Chapter.cs" />
+    <Compile Include="Model\Ch07Ex01.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

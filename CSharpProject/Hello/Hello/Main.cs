@@ -50,10 +50,17 @@ namespace Hello
 			myString = "\"myInteger\"is";
 
 			Console.WriteLine("{0},{1}.",myString,myInteger);
-//			Console.ReadKey();
+
+			People p = new People();
+			p.showForEach();
+
+			int [] myArray = {1,8,3,6,2,5,9,3,0,2};
+			int maxIndex;
+			Console.WriteLine("The MaxImum value in myArray is {0}",p.maxValue(myArray,out maxIndex));
+
+			p.delegateTest();
 			
-			Chapter cp = new Chapter();
-			cp.ChapterPrint();
+			
 		}
 
 	}
