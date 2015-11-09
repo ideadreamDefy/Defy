@@ -8,7 +8,8 @@ public class test : MonoBehaviour {
 //        // print("test.cs")
 //        Judge ju = new Judge();
 //        string [] pokerNameString = {"spade_9","Squal_1","spade_7","spade_1","spade_2"};
-//		ju.getPaiZu(pokerNameString);
+//
+	    // ju.getPaiZu(pokerNameString);
 //        if(ju.isSameColor()== true){
 //			print("相同花色");
 //		}else{

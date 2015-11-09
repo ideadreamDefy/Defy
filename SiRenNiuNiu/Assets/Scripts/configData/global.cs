@@ -13,7 +13,7 @@ public class global : MonoBehaviour {
     //玩家数量
     public static int playerCount = 4;
     //押注等待时间
-	public static int waitTime = 2;
+	public static int waitTime = 10;
     //花色图片资源名称路径
     public static string [] colorResPath = {"poker/hearts_","poker/plum_","poker/spade_","poker/Squal_"};
     //牌组游戏点数种类数量

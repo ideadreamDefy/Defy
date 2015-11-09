@@ -9,21 +9,21 @@ public class Judge{
 
     //是拍组是否同一花色
 	public static bool isSameColor(){
-        bool isRepeat = true;
-        HashSet<string> pokerKind = new HashSet<string>();
-        for(int i = 0;i<pokerColor.Length;i++){
+		bool isRepeat = true;
+		HashSet<string> pokerKind = new HashSet<string>();
+		for(int i = 0;i<pokerColor.Length;i++){
 			if (pokerColor.Equals("zhengWang")||pokerColor.Equals("fuWang")){
 				isRepeat = false;
 				return isRepeat;
 			}
 
-            if (pokerKind.Add(pokerColor[i])){
+			if (pokerKind.Add(pokerColor[i])){
 				isRepeat = false;
-                return isRepeat;
-            }
-        }
+				return isRepeat;
+			}
+	    }
 		return isRepeat;
-    } 
+	} 
 
 	//牌组是否有大小王
 	public static bool isHaveWangPoker(){
@@ -97,7 +97,7 @@ public class Judge{
        	
 		return -1;
 	}
-
+	//得到拍组颜色
     public static string getPokerPoint(){
         int points = pokerPoints();
         // 当牌组中无大小王时
@@ -120,9 +120,9 @@ public class Judge{
                 }
             }
         }else{
-			if(isBoom()&&points != -1){
+		    if(isBoom()&&points != -1){
 				return "niu_HuaZha"; // 花炸牛
-			}else{
+		    }else{
 				if ( points== -1){
 					return "niu_wu";//无牛
 				}else{
@@ -132,7 +132,7 @@ public class Judge{
 						return "niu_"+points.ToString();
 					}
 				}
-			}
+		    }
         }
     }
 }
