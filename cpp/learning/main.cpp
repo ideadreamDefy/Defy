@@ -29,6 +29,7 @@
 #include "FuncPointer.h"
 #include "FunctionTable.h"
 #include "StructCpp.h"
+#include "TemplateTest.h"
 
 #include <string>
 #include <vector>
@@ -191,7 +192,7 @@ void searchClassEntry(){
         case 18:
             {
                 StringOperation *so = new StringOperation();
-                so->operatorString("hellowwwww");
+                so->operatorString("heeel");
             }
             break;
         case 19:
@@ -211,11 +212,28 @@ void searchClassEntry(){
                 FunctionTable *fT = new FunctionTable();
                 fT->show();
             }
+            break;
         case 22:
-	    {
-	        StructCpp sc;
-		cout<<"sc.d =="<<sc.d<<endl;
-	    }
+            {
+                StructCpp sc;
+                cout<<"sc.d =="<<sc.d<<endl;
+            }
+            break;
+        case 23:
+            {
+                TemplateTest<int,int> *temp = new TemplateTest<int,int>();
+                
+                int arr1[] = {1,2,3,4,5,5,6,7,8,9,10};
+                
+//
+                int target = 8;
+//
+                std::cout<<(temp->binSearch(arr1, 0, 11, target))<<endl;
+//
+                temp->selectionSort(arr1, target);
+                
+            }
+            break;
         default:
             {
                 cout<<"输入错误请重新输入!";
@@ -337,7 +355,11 @@ int main(){
     rect22.classId = 22;
     rect22.className = "StructCpp";
     vec.push_back(rect22);
-
+    
+    VectorRect rect23;
+    rect23.classId = 23;
+    rect23.className = "TemplateTest";
+    vec.push_back(rect23);
     
     searchClassEntry();
 }
