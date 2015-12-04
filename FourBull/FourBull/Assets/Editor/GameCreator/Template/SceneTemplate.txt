@@ -1,0 +1,71 @@
+using UnityEngine;
+using BoTing.Framework;
+using BoTing.GamePublic;
+using BoTing.Module;
+
+namespace BoTing.#1
+{
+	public class #1Scene : Scene
+ 	{
+    	void Awake()
+    	{
+        	#1.Initial();
+		
+		
+			//#1.ViewManager.DisplayView("#1");
+		
+		
+        	LoginManager.Instance.OnLoginEvent += OnLoginEvent;
+        	LoginManager.Instance.Login("killliu", "111111",new ushort[] { #2 });
+    	}
+
+  
+    	void Update()
+    	{
+        	LoginManager.Instance.Update();
+        	RoomManager.Instance.Update();
+    	}
+
+    	private void OnLoginEvent(ENUM_LOGIN_EVENT ev, string message)
+    	{
+        	if (ev == ENUM_LOGIN_EVENT.LOGIN_SUCCESS)
+        	{
+            	RoomManager.Instance.OnRoomEvent += OnRoomEvent;
+            	if (GameList.GameServers.Count > 0)
+           	 	{
+                	tagGameServer srv = GameList.GameServers[0];
+                	tagGameKind kind = GameList.GameKinds.Find(f => { return f.wKindID == srv.wKindID; });
+                	RoomManager.Instance.EnterRoom(srv, kind);
+                	DebugKit.Log("#1", "#1.OnLoginEvent: Enter Room. KindID:" + kind.wKindID.ToString() +
+                                     " port:" +  srv.wServerPort.ToString() );
+            	}
+            	else
+            	{
+                	DebugKit.LogError("??????");
+            	}
+        	}
+    	}
+
+    	private void OnRoomEvent(RoomEvent ev)
+    	{
+        	switch (ev.ev)
+        	{
+            	case ENUM_ROOM_EVENT.ROOM_CREATE:
+                	DebugKit.Todo(" ===== #1.OnRoomEvent:  ====");
+
+                	#1.ClientManager.GetGameClient("#1").OnInitRoom(ev.Target);
+                	((Room)ev.Target).PerformSitDown(0, 0, "");
+
+                	DebugKit.Todo(" ===== “Display view”  ====");
+
+					#1.ViewManager.DisplayView("#1");
+
+                	break;
+            	case ENUM_ROOM_EVENT.ROOM_DESTROY:
+                	break;
+            	case ENUM_ROOM_EVENT.ROOM_ERROR:
+                	break;
+        	}
+    	}
+	}
+}
