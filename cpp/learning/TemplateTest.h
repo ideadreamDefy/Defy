@@ -15,8 +15,10 @@
 using namespace std;
 
 template <typename T,typename T1>
+  
 class TemplateTest{
 public:
+    //二分查找
     int binSearch(T arr[],int first,int last,T &target){
         //定义中间位置标志位
         int mid;
@@ -39,7 +41,7 @@ public:
         }
         return origLast;
     };
-    
+    //选择排序
     void selectionSort(T arr[],int n,T1 a = 0){
         int smallIndex;
         int pass,j;
@@ -60,8 +62,7 @@ public:
                 }
             }
         }
-    };
-
+    }
 };
 
 #endif /* defined(____TemplateTest__) */

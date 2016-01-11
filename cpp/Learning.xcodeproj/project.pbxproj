@@ -26,6 +26,7 @@
 		CC5C97931B9F34E0005F8237 /* PassByValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC5C97911B9F34E0005F8237 /* PassByValue.cpp */; };
 		CC79A5EC1BA7ED2F006D0DAA /* StringOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC79A5EA1BA7ED2F006D0DAA /* StringOperation.cpp */; };
 		CC91984A1BA1C0AF00C8F732 /* FloatingAsBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC9198481BA1C0AF00C8F732 /* FloatingAsBinary.cpp */; };
+		CC9F9C551C1567A200F2B759 /* bingTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC9F9C531C1567A200F2B759 /* bingTest.cpp */; };
 		CCC192251BB9394D00AE17E6 /* PointerLeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCC192231BB9394D00AE17E6 /* PointerLeader.cpp */; };
 		CCDB4AA61B9DE3F600F55EA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDB4AA51B9DE3F600F55EA2 /* main.cpp */; };
 		CCDB4AAF1B9DE43900F55EA2 /* NumConv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDB4AAD1B9DE43900F55EA2 /* NumConv.cpp */; };
@@ -84,6 +85,8 @@
 		CC79A5EB1BA7ED2F006D0DAA /* StringOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringOperation.h; sourceTree = "<group>"; };
 		CC9198481BA1C0AF00C8F732 /* FloatingAsBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FloatingAsBinary.cpp; sourceTree = "<group>"; };
 		CC9198491BA1C0AF00C8F732 /* FloatingAsBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingAsBinary.h; sourceTree = "<group>"; };
+		CC9F9C531C1567A200F2B759 /* bingTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bingTest.cpp; path = Learning.xcodeproj/../learning/bingTest.cpp; sourceTree = SOURCE_ROOT; };
+		CC9F9C541C1567A200F2B759 /* bingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bingTest.h; path = Learning.xcodeproj/../learning/bingTest.h; sourceTree = SOURCE_ROOT; };
 		CCC192231BB9394D00AE17E6 /* PointerLeader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PointerLeader.cpp; path = learning/PointerLeader.cpp; sourceTree = SOURCE_ROOT; };
 		CCC192241BB9394D00AE17E6 /* PointerLeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointerLeader.h; path = learning/PointerLeader.h; sourceTree = SOURCE_ROOT; };
 		CCDB4AA21B9DE3F600F55EA2 /* Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +128,8 @@
 		CC4982801BA07ECC00E90C4A /* Struct */ = {
 			isa = PBXGroup;
 			children = (
+				CC9F9C531C1567A200F2B759 /* bingTest.cpp */,
+				CC9F9C541C1567A200F2B759 /* bingTest.h */,
 				CC4982811BA07EE900E90C4A /* SimpleStruct.cpp */,
 				CC4982821BA07EE900E90C4A /* SimpleStruct.h */,
 				CC4982841BA0841500E90C4A /* Enum.cpp */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC40E6CB1BBAC672009E54BD /* FunctionTable.cpp in Sources */,
+				CC9F9C551C1567A200F2B759 /* bingTest.cpp in Sources */,
 				CC4982791BA072F100E90C4A /* CommaOperator.cpp in Sources */,
 				CC5C97861B9E9369005F8237 /* Intvector.cpp in Sources */,
 				CC49827C1BA075C600E90C4A /* static_cast.cpp in Sources */,

@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../../../UnityProjects/SiRenNiuNiu/Assets/Scripts/scene/GameScene.cs">
     <Files>
-      <File FileName="../../../UnityProjects/SiRenNiuNiu/Assets/Scripts/scene/GameScene.cs" Line="104" Column="6" />
-      <File FileName="../../../UnityProjects/SiRenNiuNiu/Assets/Scripts/tool/globalTool.cs" Line="34" Column="45" />
+      <File FileName="../../../UnityProjects/SiRenNiuNiu/Assets/Scripts/scene/GameScene.cs" Line="106" Column="60" />
+      <File FileName="../../../UnityProjects/SiRenNiuNiu/Assets/Scripts/tool/globalTool.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

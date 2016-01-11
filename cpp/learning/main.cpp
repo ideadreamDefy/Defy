@@ -30,6 +30,7 @@
 #include "FunctionTable.h"
 #include "StructCpp.h"
 #include "TemplateTest.h"
+#include "bingTest.h"
 
 #include <string>
 #include <vector>
@@ -234,6 +235,12 @@ void searchClassEntry(){
                 
             }
             break;
+        case 24:
+            {
+//                bingTest *bt = new bingTest();
+//                bind(bingTest::operator11,bt,"hello",12)();
+            }
+            break;
         default:
             {
                 cout<<"输入错误请重新输入!";
@@ -360,6 +367,11 @@ int main(){
     rect23.classId = 23;
     rect23.className = "TemplateTest";
     vec.push_back(rect23);
+    
+    VectorRect rect24;
+    rect24.classId = 24;
+    rect24.className = "bingTest";
+    vec.push_back(rect24);
     
     searchClassEntry();
 }
